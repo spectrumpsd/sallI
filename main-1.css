@@ -1,12 +1,12 @@
 body{
 
-background-image: url("/img/back.gif");
+background-image: url("img/back.gif");
 background-size: cover;
 
 }
 
 .h1{
-    -webkit-text-stroke: 3px #fff;
+    -webkit-text-stroke: 3 #fff;
 }
 
 
