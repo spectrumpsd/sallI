@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+
+body{
+
+
+ font-family: "Rubik Mono One", monospace;
+ font-weight: 400;
+ font-style: normal;
+  
+      
+
+background-image: url("/img/back.gif");
+background-size: cover;
+
+}
+
+@keyframes glow {
+    0%, 100% { text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(128, 165, 174); }
+    50% { text-shadow: 0 0 15px rgb(74, 145, 142), 0 0 30px rgb(40, 201, 201); }
+  }
+  
+
+.h1{
+    font-size: 430%;
+    color:azure;
+    color: #fff;
+    animation: glow 2s infinite;
+}
+
+.p {
+    color: rgb(201, 230, 234); 
+    text-shadow: 
+    0 0 5px #000000,
+    0 0 10px rgb(121, 228, 228),
+    0 0 15px azure;
+}
