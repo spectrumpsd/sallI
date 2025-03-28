@@ -13,8 +13,12 @@ body{
   
       
 
-background-image: url("/img/back.gif");
-background-size: cover;
+body {
+  background-image: url("img/back.gif");
+  background-size: cover;    /* Растягивает фон */
+  background-position: center; /* Центрирует */
+  background-repeat: no-repeat; /* Убирает повторение */
+}
 
 }
 
